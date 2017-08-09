@@ -1,0 +1,32 @@
+plugins {
+	id 'java-library'
+	id 'eclipse'
+	id 'idea'
+}
+
+group = 'me.apemanzilla'
+version = '0.1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+eclipse.project {
+	natures 'org.eclipse.buildship.core.gradleprojectnature'
+	natures 'org.springsource.ide.eclipse.gradle.core.nature'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly 'org.projectlombok:lombok:1.16.18'
+	
+	api 'com.google.code.gson:gson:2.8.1'
+
+	implementation 'org.slf4j:slf4j-api:1.7.25'
+	implementation 'com.google.guava:guava:23.0'
+	
+	testImplementation 'junit:junit:4.12'
+	testImplementation 'org.slf4j:slf4j-simple:1.7.25'
+}
