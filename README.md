@@ -29,3 +29,6 @@ long bountyHuntingCredits = Journal.create().events(RedeemVoucher.class)
 ```
 
 The possibilities are endless!
+
+### Warning
+EDJournal is a brand new library and has the ambitious goal of supporting the entire journal specification. It likely has numerous problems that I haven't found yet, so if you have any problems please submit an issue report so I can fix it!

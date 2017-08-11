@@ -1,0 +1,769 @@
+{ "timestamp":"2017-04-16T21:17:07Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.3", "build":"r141964/r0 " }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"Cargo", "Inventory":[ { "Name":"indite", "Count":12 }, { "Name":"bertrandite", "Count":7 }, { "Name":"gallite", "Count":3 }, { "Name":"painite", "Count":3 }, { "Name":"gold", "Count":9 }, { "Name":"samarium", "Count":3 }, { "Name":"osmium", "Count":8 }, { "Name":"drones", "Count":41 }, { "Name":"praseodymium", "Count":2 } ] }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"Loadout", "Ship":"Anaconda", "ShipID":11, "ShipName":"decimator", "ShipIdent":"AP-12A", "Modules":[ { "Slot":"HugeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Huge", "On":true, "Priority":0, "AmmoInClip":72, "AmmoInHopper":2100, "Health":1.000000, "Value":5420960, "EngineerBlueprint":"Weapon_Overcharged", "EngineerLevel":4 }, { "Slot":"LargeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":1680, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":2 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_BeamLaser_Turret_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":1784915, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_BeamLaser_Turret_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":1784915, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"SmallHardpoint1", "Item":"Hpt_MiningLaser_Fixed_Small", "On":true, "Priority":0, "Health":1.000000, "Value":6800 }, { "Slot":"SmallHardpoint2", "Item":"Hpt_MiningLaser_Fixed_Small", "On":true, "Priority":0, "Health":1.000000, "Value":6800 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":2, "AmmoInClip":1, "AmmoInHopper":2, "Health":1.000000, "Value":2975 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":2, "AmmoInClip":1, "AmmoInHopper":2, "Health":1.000000, "Value":2975 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint5", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint6", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint7", "Item":"Hpt_CargoScanner_Size0_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":40633 }, { "Slot":"TinyHardpoint8", "Item":"Hpt_CloudScanner_Size0_Class2", "On":true, "Priority":2, "Health":1.000000, "Value":34539 }, { "Slot":"Armour", "Item":"Anaconda_Armour_Grade1", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PaintJob", "Item":"PaintJob_Anaconda_Luminous_Stripe_02", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size8_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":138198514, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":1 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":43595746, "EngineerBlueprint":"Engine_Dirty", "EngineerLevel":3 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":13752602, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size5_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":27011 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size8_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":23161983, "EngineerBlueprint":"PowerDistributor_HighFrequency", "EngineerLevel":3 }, { "Slot":"Radar", "Item":"Int_Sensors_Size8_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":1482367, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":3 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":83090 }, { "Slot":"ShipName0", "Item":"Nameplate_Explorer03_White", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"ShipName1", "Item":"Nameplate_Explorer03_White", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Slot01_Size7", "Item":"Int_ShieldGenerator_Size7_Class3_Fast", "On":true, "Priority":1, "Health":1.000000, "Value":7265958 }, { "Slot":"Slot02_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":362591 }, { "Slot":"Slot03_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":308202 }, { "Slot":"Slot04_Size6", "Item":"Int_FighterBay_Size6_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":1588939 }, { "Slot":"Slot05_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":94831 }, { "Slot":"Slot06_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":111566 }, { "Slot":"Slot07_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":111566 }, { "Slot":"Slot08_Size4", "Item":"Int_DroneControl_Prospector_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":86400 }, { "Slot":"Slot09_Size4", "Item":"Int_Refinery_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":4500846 }, { "Slot":"Slot10_Size4", "Item":"Int_DroneControl_Collection_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":73440 }, { "Slot":"Slot13_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":1.000000, "Value":1545000 }, { "Slot":"Military01", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":382500 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":425 }, { "Slot":"WeaponColour", "Item":"WeaponCustomisation_Cyan", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"ShipCockpit", "Item":"Anaconda_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":3, "Health":1.000000, "Value":0 } ] }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"Materials", "Raw":[ { "Name":"selenium", "Count":22 }, { "Name":"iron", "Count":45 }, { "Name":"chromium", "Count":18 }, { "Name":"phosphorus", "Count":32 }, { "Name":"sulphur", "Count":22 }, { "Name":"nickel", "Count":20 }, { "Name":"manganese", "Count":23 }, { "Name":"cadmium", "Count":34 }, { "Name":"germanium", "Count":30 }, { "Name":"vanadium", "Count":33 }, { "Name":"niobium", "Count":44 }, { "Name":"zinc", "Count":42 }, { "Name":"mercury", "Count":15 }, { "Name":"ruthenium", "Count":6 }, { "Name":"tin", "Count":12 }, { "Name":"arsenic", "Count":51 }, { "Name":"zirconium", "Count":35 }, { "Name":"yttrium", "Count":16 }, { "Name":"molybdenum", "Count":6 }, { "Name":"technetium", "Count":9 }, { "Name":"polonium", "Count":11 }, { "Name":"tellurium", "Count":2 }, { "Name":"tungsten", "Count":5 }, { "Name":"carbon", "Count":9 } ], "Manufactured":[ { "Name":"conductivecomponents", "Count":19 }, { "Name":"shieldingsensors", "Count":12 }, { "Name":"shieldemitters", "Count":27 }, { "Name":"galvanisingalloys", "Count":7 }, { "Name":"salvagedalloys", "Count":16 }, { "Name":"focuscrystals", "Count":16 }, { "Name":"chemicalprocessors", "Count":29 }, { "Name":"mechanicalcomponents", "Count":7 }, { "Name":"heatconductionwiring", "Count":12 }, { "Name":"chemicaldistillery", "Count":21 }, { "Name":"heatdispersionplate", "Count":9 }, { "Name":"mechanicalequipment", "Count":39 }, { "Name":"highdensitycomposites", "Count":4 }, { "Name":"refinedfocuscrystals", "Count":10 }, { "Name":"precipitatedalloys", "Count":12 }, { "Name":"phasealloys", "Count":3 }, { "Name":"gridresistors", "Count":12 }, { "Name":"conductivepolymers", "Count":13 }, { "Name":"hybridcapacitors", "Count":16 }, { "Name":"exquisitefocuscrystals", "Count":42 }, { "Name":"biotechconductors", "Count":38 }, { "Name":"conductiveceramics", "Count":13 }, { "Name":"electrochemicalarrays", "Count":5 }, { "Name":"thermicalloys", "Count":3 }, { "Name":"configurablecomponents", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":12 }, { "Name":"fedcorecomposites", "Count":12 }, { "Name":"mechanicalscrap", "Count":6 }, { "Name":"chemicalmanipulators", "Count":8 }, { "Name":"heatexchangers", "Count":6 }, { "Name":"protoheatradiators", "Count":12 }, { "Name":"heatvanes", "Count":3 }, { "Name":"protolightalloys", "Count":3 }, { "Name":"compoundshielding", "Count":3 }, { "Name":"unknownenergysource", "Count":2 } ], "Encoded":[ { "Name":"shieldsoakanalysis", "Count":22 }, { "Name":"scandatabanks", "Count":7 }, { "Name":"bulkscandata", "Count":5 }, { "Name":"decodedemissiondata", "Count":25 }, { "Name":"emissiondata", "Count":25 }, { "Name":"shieldcyclerecordings", "Count":34 }, { "Name":"encodedscandata", "Count":7 }, { "Name":"encryptedfiles", "Count":13 }, { "Name":"shieldpatternanalysis", "Count":24 }, { "Name":"hyperspacetrajectories", "Count":26 }, { "Name":"wakesolutions", "Count":32 }, { "Name":"disruptedwakeechoes", "Count":31 }, { "Name":"fsdtelemetry", "Count":29 }, { "Name":"archivedemissiondata", "Count":26 }, { "Name":"industrialfirmware", "Count":9 }, { "Name":"scrambledemissiondata", "Count":26 }, { "Name":"legacyfirmware", "Count":25 }, { "Name":"consumerfirmware", "Count":8 }, { "Name":"symmetrickeys", "Count":27 }, { "Name":"adaptiveencryptors", "Count":27 }, { "Name":"encryptionarchives", "Count":24 }, { "Name":"shielddensityreports", "Count":16 }, { "Name":"encryptioncodes", "Count":9 }, { "Name":"securityfirmware", "Count":3 }, { "Name":"classifiedscandata", "Count":3 }, { "Name":"dataminedwake", "Count":8 }, { "Name":"compactemissionsdata", "Count":3 } ] }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"LoadGame", "Commander":"apemanzilla", "Ship":"Anaconda", "ShipID":11, "ShipName":"decimator", "ShipIdent":"AP-12A", "FuelLevel":29.270380, "FuelCapacity":32.000000, "GameMode":"Open", "Credits":99967332, "Loan":0 }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"Rank", "Combat":3, "Trade":5, "Explore":7, "Empire":1, "Federation":1, "CQC":0 }
+{ "timestamp":"2017-04-16T21:17:42Z", "event":"Progress", "Combat":13, "Trade":33, "Explore":38, "Empire":100, "Federation":38, "CQC":0 }
+{ "timestamp":"2017-04-16T21:17:50Z", "event":"Location", "Docked":false, "StarSystem":"Baudu", "StarPos":[39.469,-23.938,-19.094], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Communism;", "SystemGovernment_Localised":"Communism", "SystemSecurity":"$SYSTEM_SECURITY_high;", "SystemSecurity_Localised":"High Security", "Body":"Baudu AB 3 A Ring", "BodyType":"PlanetaryRing", "Factions":[ { "Name":"New LFT 434 Free", "FactionState":"None", "Government":"Democracy", "Influence":0.025000, "Allegiance":"Federation" }, { "Name":"Independent Baudu Union Party", "FactionState":"Boom", "Government":"Communism", "Influence":0.683000, "Allegiance":"Independent" }, { "Name":"Fidenef Alliance", "FactionState":"War", "Government":"Confederacy", "Influence":0.074000, "Allegiance":"Federation" }, { "Name":"Justice Party of Baudu", "FactionState":"None", "Government":"Dictatorship", "Influence":0.023000, "Allegiance":"Independent" }, { "Name":"Baudu Network", "FactionState":"War", "Government":"Corporate", "Influence":0.050000, "Allegiance":"Federation" }, { "Name":"Dragons of Baudu", "FactionState":"None", "Government":"Anarchy", "Influence":0.035000, "Allegiance":"Independent" }, { "Name":"Baudu Empire Party", "FactionState":"None", "Government":"Patronage", "Influence":0.110000, "Allegiance":"Empire" } ], "SystemFaction":"Independent Baudu Union Party", "FactionState":"Boom" }
+{ "timestamp":"2017-04-16T21:19:18Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T21:19:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Move along, Commander, we're done here.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:19:26Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:19:44Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T21:20:13Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"arsenic", "Count":9 }
+{ "timestamp":"2017-04-16T21:20:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T21:20:23Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:20:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T21:20:52Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T21:21:08Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"zinc", "Count":9 }
+{ "timestamp":"2017-04-16T21:21:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T21:21:21Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:21:42Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T21:23:30Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T21:23:30Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T21:23:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T21:24:37Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"Cargo", "Inventory":[ { "Name":"indite", "Count":15 }, { "Name":"bertrandite", "Count":7 }, { "Name":"gallite", "Count":8 }, { "Name":"painite", "Count":4 }, { "Name":"gold", "Count":9 }, { "Name":"samarium", "Count":3 }, { "Name":"osmium", "Count":8 }, { "Name":"drones", "Count":37 }, { "Name":"praseodymium", "Count":2 } ] }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"Loadout", "Ship":"Anaconda", "ShipID":11, "ShipName":"decimator", "ShipIdent":"AP-12A", "Modules":[ { "Slot":"HugeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Huge", "On":true, "Priority":0, "AmmoInClip":72, "AmmoInHopper":2100, "Health":1.000000, "Value":5420960, "EngineerBlueprint":"Weapon_Overcharged", "EngineerLevel":4 }, { "Slot":"LargeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":1680, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":491671, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":2 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_BeamLaser_Turret_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":1784915, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_BeamLaser_Turret_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":1784915, "EngineerBlueprint":"Weapon_LongRange", "EngineerLevel":3 }, { "Slot":"SmallHardpoint1", "Item":"Hpt_MiningLaser_Fixed_Small", "On":true, "Priority":0, "Health":1.000000, "Value":6800 }, { "Slot":"SmallHardpoint2", "Item":"Hpt_MiningLaser_Fixed_Small", "On":true, "Priority":0, "Health":1.000000, "Value":6800 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":2, "AmmoInClip":1, "AmmoInHopper":2, "Health":1.000000, "Value":2975 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":2, "AmmoInClip":1, "AmmoInHopper":2, "Health":1.000000, "Value":2975 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint5", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint6", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":1 }, { "Slot":"TinyHardpoint7", "Item":"Hpt_CargoScanner_Size0_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":40633 }, { "Slot":"TinyHardpoint8", "Item":"Hpt_CloudScanner_Size0_Class2", "On":true, "Priority":2, "Health":1.000000, "Value":34539 }, { "Slot":"Armour", "Item":"Anaconda_Armour_Grade1", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PaintJob", "Item":"PaintJob_Anaconda_Luminous_Stripe_02", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size8_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":138198514, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":1 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":43595746, "EngineerBlueprint":"Engine_Dirty", "EngineerLevel":3 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":13752602, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size5_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":27011 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size8_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":23161983, "EngineerBlueprint":"PowerDistributor_HighFrequency", "EngineerLevel":3 }, { "Slot":"Radar", "Item":"Int_Sensors_Size8_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":1482367, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":3 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":83090 }, { "Slot":"ShipName0", "Item":"Nameplate_Explorer03_White", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"ShipName1", "Item":"Nameplate_Explorer03_White", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Slot01_Size7", "Item":"Int_ShieldGenerator_Size7_Class3_Fast", "On":true, "Priority":1, "Health":1.000000, "Value":7265958 }, { "Slot":"Slot02_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":362591 }, { "Slot":"Slot03_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":308202 }, { "Slot":"Slot04_Size6", "Item":"Int_FighterBay_Size6_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":1588939 }, { "Slot":"Slot05_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":94831 }, { "Slot":"Slot06_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":111566 }, { "Slot":"Slot07_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":111566 }, { "Slot":"Slot08_Size4", "Item":"Int_DroneControl_Prospector_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":86400 }, { "Slot":"Slot09_Size4", "Item":"Int_Refinery_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":4500846 }, { "Slot":"Slot10_Size4", "Item":"Int_DroneControl_Collection_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":73440 }, { "Slot":"Slot13_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":1.000000, "Value":1545000 }, { "Slot":"Military01", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":382500 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":425 }, { "Slot":"WeaponColour", "Item":"WeaponCustomisation_Cyan", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"ShipCockpit", "Item":"Anaconda_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":3, "Health":1.000000, "Value":0 } ] }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"Materials", "Raw":[ { "Name":"selenium", "Count":22 }, { "Name":"iron", "Count":45 }, { "Name":"chromium", "Count":18 }, { "Name":"phosphorus", "Count":35 }, { "Name":"sulphur", "Count":25 }, { "Name":"nickel", "Count":20 }, { "Name":"manganese", "Count":23 }, { "Name":"cadmium", "Count":34 }, { "Name":"germanium", "Count":30 }, { "Name":"vanadium", "Count":33 }, { "Name":"niobium", "Count":44 }, { "Name":"zinc", "Count":36 }, { "Name":"mercury", "Count":15 }, { "Name":"ruthenium", "Count":6 }, { "Name":"tin", "Count":12 }, { "Name":"arsenic", "Count":42 }, { "Name":"zirconium", "Count":35 }, { "Name":"yttrium", "Count":16 }, { "Name":"molybdenum", "Count":6 }, { "Name":"technetium", "Count":9 }, { "Name":"polonium", "Count":11 }, { "Name":"tellurium", "Count":2 }, { "Name":"tungsten", "Count":5 }, { "Name":"carbon", "Count":12 } ], "Manufactured":[ { "Name":"conductivecomponents", "Count":19 }, { "Name":"shieldingsensors", "Count":12 }, { "Name":"shieldemitters", "Count":27 }, { "Name":"galvanisingalloys", "Count":7 }, { "Name":"salvagedalloys", "Count":16 }, { "Name":"focuscrystals", "Count":16 }, { "Name":"chemicalprocessors", "Count":29 }, { "Name":"mechanicalcomponents", "Count":7 }, { "Name":"heatconductionwiring", "Count":12 }, { "Name":"chemicaldistillery", "Count":21 }, { "Name":"heatdispersionplate", "Count":9 }, { "Name":"mechanicalequipment", "Count":39 }, { "Name":"highdensitycomposites", "Count":4 }, { "Name":"refinedfocuscrystals", "Count":10 }, { "Name":"precipitatedalloys", "Count":12 }, { "Name":"phasealloys", "Count":3 }, { "Name":"gridresistors", "Count":12 }, { "Name":"conductivepolymers", "Count":13 }, { "Name":"hybridcapacitors", "Count":16 }, { "Name":"exquisitefocuscrystals", "Count":42 }, { "Name":"biotechconductors", "Count":38 }, { "Name":"conductiveceramics", "Count":13 }, { "Name":"electrochemicalarrays", "Count":5 }, { "Name":"thermicalloys", "Count":3 }, { "Name":"configurablecomponents", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":12 }, { "Name":"fedcorecomposites", "Count":12 }, { "Name":"mechanicalscrap", "Count":6 }, { "Name":"chemicalmanipulators", "Count":8 }, { "Name":"heatexchangers", "Count":6 }, { "Name":"protoheatradiators", "Count":12 }, { "Name":"heatvanes", "Count":3 }, { "Name":"protolightalloys", "Count":3 }, { "Name":"compoundshielding", "Count":3 }, { "Name":"unknownenergysource", "Count":2 } ], "Encoded":[ { "Name":"shieldsoakanalysis", "Count":22 }, { "Name":"scandatabanks", "Count":7 }, { "Name":"bulkscandata", "Count":5 }, { "Name":"decodedemissiondata", "Count":25 }, { "Name":"emissiondata", "Count":25 }, { "Name":"shieldcyclerecordings", "Count":34 }, { "Name":"encodedscandata", "Count":7 }, { "Name":"encryptedfiles", "Count":13 }, { "Name":"shieldpatternanalysis", "Count":24 }, { "Name":"hyperspacetrajectories", "Count":26 }, { "Name":"wakesolutions", "Count":32 }, { "Name":"disruptedwakeechoes", "Count":31 }, { "Name":"fsdtelemetry", "Count":29 }, { "Name":"archivedemissiondata", "Count":26 }, { "Name":"industrialfirmware", "Count":9 }, { "Name":"scrambledemissiondata", "Count":26 }, { "Name":"legacyfirmware", "Count":25 }, { "Name":"consumerfirmware", "Count":8 }, { "Name":"symmetrickeys", "Count":27 }, { "Name":"adaptiveencryptors", "Count":27 }, { "Name":"encryptionarchives", "Count":24 }, { "Name":"shielddensityreports", "Count":16 }, { "Name":"encryptioncodes", "Count":9 }, { "Name":"securityfirmware", "Count":3 }, { "Name":"classifiedscandata", "Count":3 }, { "Name":"dataminedwake", "Count":8 }, { "Name":"compactemissionsdata", "Count":3 } ] }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"LoadGame", "Commander":"apemanzilla", "Ship":"Anaconda", "ShipID":11, "ShipName":"decimator", "ShipIdent":"AP-12A", "FuelLevel":28.200380, "FuelCapacity":32.000000, "GameMode":"Open", "Credits":99967332, "Loan":0 }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"Rank", "Combat":3, "Trade":5, "Explore":7, "Empire":1, "Federation":1, "CQC":0 }
+{ "timestamp":"2017-04-16T21:30:21Z", "event":"Progress", "Combat":13, "Trade":33, "Explore":38, "Empire":100, "Federation":38, "CQC":0 }
+{ "timestamp":"2017-04-16T21:30:24Z", "event":"Location", "Docked":false, "StarSystem":"Baudu", "StarPos":[39.469,-23.938,-19.094], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Communism;", "SystemGovernment_Localised":"Communism", "SystemSecurity":"$SYSTEM_SECURITY_high;", "SystemSecurity_Localised":"High Security", "Body":"Baudu AB 3 A Ring", "BodyType":"PlanetaryRing", "Factions":[ { "Name":"New LFT 434 Free", "FactionState":"None", "Government":"Democracy", "Influence":0.025000, "Allegiance":"Federation" }, { "Name":"Independent Baudu Union Party", "FactionState":"Boom", "Government":"Communism", "Influence":0.683000, "Allegiance":"Independent" }, { "Name":"Fidenef Alliance", "FactionState":"War", "Government":"Confederacy", "Influence":0.074000, "Allegiance":"Federation" }, { "Name":"Justice Party of Baudu", "FactionState":"None", "Government":"Dictatorship", "Influence":0.023000, "Allegiance":"Independent" }, { "Name":"Baudu Network", "FactionState":"War", "Government":"Corporate", "Influence":0.050000, "Allegiance":"Federation" }, { "Name":"Dragons of Baudu", "FactionState":"None", "Government":"Anarchy", "Influence":0.035000, "Allegiance":"Independent" }, { "Name":"Baudu Empire Party", "FactionState":"None", "Government":"Patronage", "Influence":0.110000, "Allegiance":"Empire" } ], "SystemFaction":"Independent Baudu Union Party", "FactionState":"Boom" }
+{ "timestamp":"2017-04-16T21:31:43Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:31:50Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:31:50Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-16T21:31:53Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T21:31:53Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"You look like a fish worth landing.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:31:53Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Give me 2t of that painite you're carrying if you want to live.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:31:54Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Start dumping that cargo. I'll give you... 15 seconds before I start shooting.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:32:26Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Police response unit in position.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:32:26Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Police response unit in position.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:32:30Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"A crime has been reported here. All ships will be scanned.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:32:30Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"A crime has been reported here. All ships will be scanned.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:32:47Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:33:05Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:33:16Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T21:33:16Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"All clear. Carry on, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:33:33Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:33:56Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Do you know who I am?", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:33:58Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:33:59Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:33:59Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:34:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T21:34:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"This is not the end!", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:34:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"This is not the end!", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:34:32Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:34:33Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:34:43Z", "event":"Bounty", "Rewards":[ { "Faction":"Independent Baudu Union Party", "Reward":16830 } ], "Target":"adder", "TotalReward":16830, "VictimFaction":"Dragons of Baudu" }
+{ "timestamp":"2017-04-16T21:35:07Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T21:35:28Z", "event":"DockFighter" }
+{ "timestamp":"2017-04-16T21:35:38Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T21:36:50Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:36:53Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":9 }
+{ "timestamp":"2017-04-16T21:37:14Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:37:33Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:38:08Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:38:54Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T21:38:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T21:39:32Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T21:39:32Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"All clear. Carry on, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:39:48Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:40:08Z", "event":"MiningRefined", "Type":"$palladium_name;", "Type_Localised":"Palladium" }
+{ "timestamp":"2017-04-16T21:40:17Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:40:31Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T21:40:41Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:40:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T21:41:03Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:41:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T21:41:30Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T21:42:34Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-16T21:42:39Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-16T21:42:50Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Reporting in, high value target acquired.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:45:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I still haven't written my vows. What can I say?", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:46:32Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:47:35Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:47:38Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 c", "BodyType":"Planet" }
+{ "timestamp":"2017-04-16T21:48:22Z", "event":"DockingRequested", "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:48:22Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Ensure to observe starport protocol during your visit, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:48:24Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:48:24Z", "event":"DockingGranted", "LandingPad":12, "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:48:24Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:48:41Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I'm away, heading to patrol route alpha now.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:48:49Z", "event":"Docked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation", "StarSystem":"Baudu", "StationFaction":"Independent Baudu Union Party", "FactionState":"Boom", "StationGovernment":"$government_Communism;", "StationGovernment_Localised":"Communism", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":1771.744019 }
+{ "timestamp":"2017-04-16T21:48:57Z", "event":"RefuelAll", "Cost":243, "Amount":4.857181 }
+{ "timestamp":"2017-04-16T21:49:28Z", "event":"MarketSell", "Type":"gold", "Count":15, "SellPrice":9164, "TotalSale":137460, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:49:33Z", "event":"MarketSell", "Type":"osmium", "Count":8, "SellPrice":7538, "TotalSale":60304, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:49:49Z", "event":"MarketSell", "Type":"indite", "Count":21, "SellPrice":1321, "TotalSale":27741, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:49:54Z", "event":"MarketSell", "Type":"gallite", "Count":8, "SellPrice":1141, "TotalSale":9128, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:50:03Z", "event":"MarketSell", "Type":"bertrandite", "Count":7, "SellPrice":1533, "TotalSale":10731, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:50:06Z", "event":"MarketSell", "Type":"palladium", "Count":1, "SellPrice":12815, "TotalSale":12815, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:50:14Z", "event":"MarketSell", "Type":"praseodymium", "Count":8, "SellPrice":5409, "TotalSale":43272, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:50:19Z", "event":"MarketSell", "Type":"samarium", "Count":4, "SellPrice":4993, "TotalSale":19972, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T21:50:41Z", "event":"FetchRemoteModule", "StorageSlot":20, "StoredItem":"$int_fuelscoop_size6_class5_name;", "StoredItem_Localised":"Fuel Scoop", "ServerId":128666681, "TransferCost":32137, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:50:47Z", "event":"FetchRemoteModule", "StorageSlot":22, "StoredItem":"$int_shieldcellbank_size5_class5_name;", "StoredItem_Localised":"Shield Cell Bank", "ServerId":128064322, "TransferCost":1275, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:50:54Z", "event":"FetchRemoteModule", "StorageSlot":21, "StoredItem":"$int_shieldcellbank_size5_class5_name;", "StoredItem_Localised":"Shield Cell Bank", "ServerId":128064322, "TransferCost":1275, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:51:00Z", "event":"FetchRemoteModule", "StorageSlot":23, "StoredItem":"$int_fsdinterdictor_size4_class2_name;", "StoredItem_Localised":"FSD Interdictor", "ServerId":128666711, "TransferCost":980, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:51:07Z", "event":"FetchRemoteModule", "StorageSlot":24, "StoredItem":"$int_buggybay_size4_class2_name;", "StoredItem_Localised":"Planetary Vehicle Hangar", "ServerId":128672291, "TransferCost":181, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:51:23Z", "event":"FetchRemoteModule", "StorageSlot":26, "StoredItem":"$hpt_beamlaser_turret_small_name;", "StoredItem_Localised":"Beam Laser", "ServerId":128049435, "TransferCost":573, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:51:27Z", "event":"FetchRemoteModule", "StorageSlot":27, "StoredItem":"$hpt_beamlaser_turret_small_name;", "StoredItem_Localised":"Beam Laser", "ServerId":128049435, "TransferCost":573, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:52:22Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Shift's over guys, I'm heading back to base.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:52:50Z", "event":"ModuleBuy", "Slot":"Slot13_Size2", "StoredItem":"$int_stellarbodydiscoveryscanner_advanced_name;", "StoredItem_Localised":"D - Scanner", "BuyItem":"$int_dronecontrol_collection_size1_class2_name;", "BuyItem_Localised":"Collector", "BuyPrice":1200, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:53:03Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:53:37Z", "event":"ModuleBuy", "Slot":"SmallHardpoint1", "SellItem":"$hpt_mininglaser_fixed_small_name;", "SellItem_Localised":"Mining Laser", "SellPrice":6800, "BuyItem":"$hpt_mininglaser_turret_small_name;", "BuyItem_Localised":"Mining Laser", "BuyPrice":9400, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:53:50Z", "event":"ModuleBuy", "Slot":"SmallHardpoint2", "SellItem":"$hpt_mininglaser_fixed_small_name;", "SellItem_Localised":"Mining Laser", "SellPrice":6800, "BuyItem":"$hpt_mininglaser_turret_small_name;", "BuyItem_Localised":"Mining Laser", "BuyPrice":9400, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:54:06Z", "event":"ModuleStore", "Slot":"MediumHardpoint2", "StoredItem":"$hpt_beamlaser_turret_medium_name;", "StoredItem_Localised":"Beam Laser", "Ship":"anaconda", "ShipID":11, "EngineerModifications":"Weapon_LongRange" }
+{ "timestamp":"2017-04-16T21:54:24Z", "event":"ModuleBuy", "Slot":"MediumHardpoint2", "BuyItem":"$hpt_mininglaser_turret_medium_name;", "BuyItem_Localised":"Mining Laser", "BuyPrice":32576, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:54:38Z", "event":"ModuleBuy", "Slot":"MediumHardpoint1", "StoredItem":"$hpt_beamlaser_turret_medium_name;", "StoredItem_Localised":"Beam Laser", "BuyItem":"$hpt_mininglaser_turret_medium_name;", "BuyItem_Localised":"Mining Laser", "BuyPrice":32576, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T21:55:53Z", "event":"Undocked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-04-16T21:55:53Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:56:03Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Tower, this is Patrol. Launch completed.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:56:05Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Dock request denied, please clear bay doors.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:56:18Z", "event":"DockingRequested", "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:56:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Ensure to observe starport protocol during your visit, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:56:19Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:56:19Z", "event":"DockingGranted", "LandingPad":2, "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:57:20Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T21:57:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Your scan is clear. Carry on with your journey, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:57:25Z", "event":"Docked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation", "StarSystem":"Baudu", "StationFaction":"Independent Baudu Union Party", "FactionState":"Boom", "StationGovernment":"$government_Communism;", "StationGovernment_Localised":"Communism", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":1771.696411 }
+{ "timestamp":"2017-04-16T21:57:32Z", "event":"RefuelAll", "Cost":10, "Amount":0.050867 }
+{ "timestamp":"2017-04-16T21:57:45Z", "event":"Repair", "Item":"Wear", "Cost":1029 }
+{ "timestamp":"2017-04-16T21:58:02Z", "event":"BuyDrones", "Type":"Drones", "Count":50, "BuyPrice":101, "TotalCost":5050 }
+{ "timestamp":"2017-04-16T21:58:19Z", "event":"Undocked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-04-16T21:58:33Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Tower, this is Patrol. I'm inbound for landing.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:58:39Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T21:59:44Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-16T21:59:45Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T21:59:49Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-16T22:01:23Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"I'd like to direct your attention to our flight attendants for a brief safety demonstration.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:02:49Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:03:29Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Today's cruise includes some delightful views, our flight attendants are on hand with full details.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:03:57Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Today's cruise includes some delightful views, our flight attendants are on hand with full details.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:04:40Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Today's cruise includes some delightful views, our flight attendants are on hand with full details.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:04:47Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 3 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2017-04-16T22:07:29Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:07:33Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:07:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:07:53Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:07:57Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:08:27Z", "event":"MaterialDiscarded", "Category":"Manufactured", "Name":"mechanicalequipment", "Count":12 }
+{ "timestamp":"2017-04-16T22:08:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:08:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:08:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-04-16T22:09:00Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:09:02Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:09:43Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:09:47Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:10:21Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:10:28Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:11:41Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":6 }
+{ "timestamp":"2017-04-16T22:11:48Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":6 }
+{ "timestamp":"2017-04-16T22:11:55Z", "event":"MiningRefined", "Type":"$palladium_name;", "Type_Localised":"Palladium" }
+{ "timestamp":"2017-04-16T22:12:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T22:12:22Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-04-16T22:12:22Z", "event":"WingAdd", "Name":"[redacted]" }
+{ "timestamp":"2017-04-16T22:12:27Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:12:35Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:12:38Z", "event":"MiningRefined", "Type":"$palladium_name;", "Type_Localised":"Palladium" }
+{ "timestamp":"2017-04-16T22:12:40Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:12:52Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:13:02Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:13:03Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:13:09Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:13:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:13:14Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:13:21Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:13:25Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:13:28Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:13:32Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:14:19Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:14:19Z", "event":"MiningRefined", "Type":"$palladium_name;", "Type_Localised":"Palladium" }
+{ "timestamp":"2017-04-16T22:14:24Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:14:28Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:14:33Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:14:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:14:44Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:14:55Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:15:04Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:15:11Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:15:14Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:15:28Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:15:46Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:16:18Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:16:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T22:16:29Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:16:30Z", "event":"MiningRefined", "Type":"$palladium_name;", "Type_Localised":"Palladium" }
+{ "timestamp":"2017-04-16T22:16:31Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:16:33Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:16:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:16:57Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:16:57Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:17:04Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:17:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T22:17:08Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:17:09Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:17:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:17:24Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":12 }
+{ "timestamp":"2017-04-16T22:17:30Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:17:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:17:45Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:17:57Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:18:05Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:18:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:18:11Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:18:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:18:27Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:18:58Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:19:01Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:19:06Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:19:27Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:19:40Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:19:46Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:19:50Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:19:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:20:18Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:21:14Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:21:28Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T22:22:20Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T22:22:30Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-16T22:22:49Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:22:51Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:22:57Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:23:00Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:23:03Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:23:15Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:23:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:23:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:23:34Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:23:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:23:55Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:23:55Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:06Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:24:08Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:12Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:24:41Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T22:24:41Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:48Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:24:48Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:52Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:24:54Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:24:58Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:25:21Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:25:30Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:25:36Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:25:36Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:25:39Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:25:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-16T22:25:46Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-16T22:27:15Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:27:29Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:27:38Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:27:43Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:27:52Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:29:25Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:29:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:29:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:29:46Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":6 }
+{ "timestamp":"2017-04-16T22:29:52Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:29:58Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":6 }
+{ "timestamp":"2017-04-16T22:30:23Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:30:28Z", "event":"MiningRefined", "Type":"$platinum_name;", "Type_Localised":"Platinum" }
+{ "timestamp":"2017-04-16T22:30:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:30:46Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:31:09Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:31:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T22:31:44Z", "event":"WingLeave" }
+{ "timestamp":"2017-04-16T22:31:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:32:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T22:33:13Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:33:22Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:33:35Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:33:59Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"niobium", "Count":12 }
+{ "timestamp":"2017-04-16T22:34:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:34:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:34:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T22:34:31Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:34:52Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:35:30Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:36:31Z", "event":"WingJoin", "Others":[ "The Akog Killer" ] }
+{ "timestamp":"2017-04-16T22:36:31Z", "event":"WingAdd", "Name":"[redacted]" }
+{ "timestamp":"2017-04-16T22:36:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T22:37:04Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"phosphorus", "Count":9 }
+{ "timestamp":"2017-04-16T22:37:21Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:37:23Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:37:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:37:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:38:09Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:39:27Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:39:34Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:39:37Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:39:50Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:40:07Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:40:19Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:40:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"The lead is down. No payday for me.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:40:42Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"The lead is down. No payday for me.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T22:41:40Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T22:41:51Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T22:42:15Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T22:42:38Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T22:42:45Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:43:07Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T22:43:15Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":12 }
+{ "timestamp":"2017-04-16T22:43:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:43:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T22:43:25Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":6 }
+{ "timestamp":"2017-04-16T22:43:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:44:41Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:44:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:44:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T22:44:53Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:45:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T22:45:03Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:45:08Z", "event":"HeatWarning" }
+{ "timestamp":"2017-04-16T22:45:11Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:45:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:45:23Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:45:29Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":12 }
+{ "timestamp":"2017-04-16T22:45:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T22:45:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T22:45:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:45:42Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":6 }
+{ "timestamp":"2017-04-16T22:45:50Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:46:05Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-16T22:46:13Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T22:47:12Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:47:13Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-16T22:47:35Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:48:33Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:49:29Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:50:32Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-16T22:52:56Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:53:15Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T22:53:17Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:53:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T22:53:45Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:54:28Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:54:48Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T22:55:59Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:56:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T22:56:12Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:56:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:56:28Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:56:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T22:56:45Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T22:56:47Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"cadmium", "Count":6 }
+{ "timestamp":"2017-04-16T22:56:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T22:56:56Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":4 }
+{ "timestamp":"2017-04-16T22:56:58Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":1 }
+{ "timestamp":"2017-04-16T22:57:04Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"phosphorus", "Count":6 }
+{ "timestamp":"2017-04-16T22:58:01Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T22:58:41Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T22:59:54Z", "event":"MiningRefined", "Type":"$painite_name;", "Type_Localised":"Painite" }
+{ "timestamp":"2017-04-16T23:00:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T23:02:48Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T23:03:10Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:03:56Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:04:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T23:04:40Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:05:17Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:05:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T23:05:53Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":9 }
+{ "timestamp":"2017-04-16T23:05:55Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:06:13Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:06:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T23:08:57Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:09:17Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:09:32Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:09:56Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:10:07Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:10:43Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:10:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T23:12:04Z", "event":"DockFighter" }
+{ "timestamp":"2017-04-16T23:12:57Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-16T23:13:02Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-16T23:17:15Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T23:18:17Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T23:18:19Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 c", "BodyType":"Planet" }
+{ "timestamp":"2017-04-16T23:19:36Z", "event":"DockingRequested", "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T23:19:36Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Ensure to observe starport protocol during your visit, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:19:37Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:19:37Z", "event":"DockingGranted", "LandingPad":4, "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T23:19:50Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:20:26Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-16T23:20:26Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"We're done here pilot, move along.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:20:34Z", "event":"Docked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation", "StarSystem":"Baudu", "StationFaction":"Independent Baudu Union Party", "FactionState":"Boom", "StationGovernment":"$government_Communism;", "StationGovernment_Localised":"Communism", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":1771.252197 }
+{ "timestamp":"2017-04-16T23:20:43Z", "event":"RepairAll", "Cost":42264 }
+{ "timestamp":"2017-04-16T23:20:44Z", "event":"RefuelAll", "Cost":177, "Amount":3.519690 }
+{ "timestamp":"2017-04-16T23:20:53Z", "event":"MarketSell", "Type":"gold", "Count":8, "SellPrice":9164, "TotalSale":73312, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:20:57Z", "event":"MarketSell", "Type":"osmium", "Count":10, "SellPrice":7538, "TotalSale":75380, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:00Z", "event":"MarketSell", "Type":"palladium", "Count":4, "SellPrice":12815, "TotalSale":51260, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:03Z", "event":"MarketSell", "Type":"platinum", "Count":1, "SellPrice":23265, "TotalSale":23265, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:08Z", "event":"MarketSell", "Type":"praseodymium", "Count":5, "SellPrice":5409, "TotalSale":27045, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:12Z", "event":"MarketSell", "Type":"samarium", "Count":8, "SellPrice":4993, "TotalSale":39944, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:18Z", "event":"MarketSell", "Type":"silver", "Count":9, "SellPrice":4705, "TotalSale":42345, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:26Z", "event":"MarketSell", "Type":"gallite", "Count":13, "SellPrice":1141, "TotalSale":14833, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:31Z", "event":"MarketSell", "Type":"bertrandite", "Count":15, "SellPrice":1533, "TotalSale":22995, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:38Z", "event":"MarketSell", "Type":"indite", "Count":17, "SellPrice":1321, "TotalSale":22457, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:21:42Z", "event":"MarketSell", "Type":"painite", "Count":3, "SellPrice":71419, "TotalSale":214257, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-16T23:22:18Z", "event":"ModuleBuy", "Slot":"Slot08_Size4", "SellItem":"$int_dronecontrol_prospector_size3_class5_name;", "SellItem_Localised":"Prospector", "SellPrice":86400, "BuyItem":"$int_dronecontrol_collection_size3_class3_name;", "BuyItem_Localised":"Collector", "BuyPrice":21600, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T23:22:37Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Shift's over guys, I'm heading back to base.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:22:40Z", "event":"ModuleBuy", "Slot":"Slot13_Size2", "SellItem":"$int_dronecontrol_collection_size1_class2_name;", "SellItem_Localised":"Collector", "SellPrice":1200, "BuyItem":"$int_dronecontrol_prospector_size1_class2_name;", "BuyItem_Localised":"Prospector", "BuyPrice":1200, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T23:23:08Z", "event":"ModuleBuy", "Slot":"Slot08_Size4", "SellItem":"$int_dronecontrol_collection_size3_class3_name;", "SellItem_Localised":"Collector", "SellPrice":21600, "BuyItem":"$int_dronecontrol_collection_size3_class2_name;", "BuyItem_Localised":"Collector", "BuyPrice":10800, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T23:23:27Z", "event":"ModuleBuy", "Slot":"Slot08_Size4", "SellItem":"$int_dronecontrol_collection_size3_class2_name;", "SellItem_Localised":"Collector", "SellPrice":10800, "BuyItem":"$int_dronecontrol_collection_size3_class3_name;", "BuyItem_Localised":"Collector", "BuyPrice":21600, "Ship":"anaconda", "ShipID":11 }
+{ "timestamp":"2017-04-16T23:23:42Z", "event":"Repair", "Item":"Wear", "Cost":8231 }
+{ "timestamp":"2017-04-16T23:23:52Z", "event":"BuyDrones", "Type":"Drones", "Count":70, "BuyPrice":101, "TotalCost":7070 }
+{ "timestamp":"2017-04-16T23:24:16Z", "event":"Undocked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-04-16T23:24:34Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:25:10Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-16T23:25:12Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-16T23:25:21Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-16T23:27:46Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2017-04-16T23:28:18Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Location running dry, heading home.", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:28:44Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-16T23:28:49Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-16T23:30:25Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2017-04-16T23:30:39Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-16T23:30:51Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-16T23:32:31Z", "event":"MiningRefined", "Type":"$indite_name;", "Type_Localised":"Indite" }
+{ "timestamp":"2017-04-16T23:32:56Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:33:00Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"zinc", "Count":15 }
+{ "timestamp":"2017-04-16T23:33:38Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:34:28Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:34:53Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:35:18Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-16T23:35:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T23:36:40Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:37:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T23:37:12Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:37:24Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:38:32Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:38:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T23:38:48Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:39:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Another one? I need a career change...", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:39:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Another one? I need a career change...", "Channel":"npc" }
+{ "timestamp":"2017-04-16T23:40:01Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:40:26Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:40:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T23:40:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T23:41:05Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-16T23:42:07Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-16T23:42:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T23:42:29Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:42:29Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-16T23:42:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T23:43:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":2 }
+{ "timestamp":"2017-04-16T23:43:10Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2017-04-16T23:43:13Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-04-16T23:43:16Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T23:43:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-16T23:44:33Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-16T23:44:52Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-16T23:46:26Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:46:39Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:46:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T23:46:50Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:46:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-16T23:46:59Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":6 }
+{ "timestamp":"2017-04-16T23:48:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T23:48:13Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:48:24Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":12 }
+{ "timestamp":"2017-04-16T23:48:56Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:49:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T23:49:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T23:49:30Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-16T23:49:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-16T23:49:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-16T23:49:50Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:49:58Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"zinc", "Count":9 }
+{ "timestamp":"2017-04-16T23:50:25Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:52:02Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-16T23:52:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-16T23:52:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-16T23:53:42Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:54:02Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:54:18Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:54:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T23:55:50Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:56:04Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-16T23:56:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-16T23:57:16Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-16T23:57:48Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-16T23:59:03Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-16T23:59:05Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"phosphorus", "Count":12 }
+{ "timestamp":"2017-04-16T23:59:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-16T23:59:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:00:19Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:00:59Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:03Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:01:09Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:16Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:20Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:23Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:28Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:01:31Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:01:39Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:01:46Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:02:09Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:02:13Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:02:23Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:02:30Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:02:38Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:03:01Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:03:09Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:03:15Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:03:19Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:03:25Z", "event":"EjectCargo", "Type":"drones", "Count":20, "Abandoned":true }
+{ "timestamp":"2017-04-17T00:03:36Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:03:44Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:03:47Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:03:56Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:04:11Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"player" }
+{ "timestamp":"2017-04-17T00:04:14Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:04:50Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"player" }
+{ "timestamp":"2017-04-17T00:04:54Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:04:55Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:05:00Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:05:12Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:05:17Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"player" }
+{ "timestamp":"2017-04-17T00:05:29Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:06:30Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:06:58Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:07:07Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:07:24Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:07:31Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:07:35Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:07:43Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:07:49Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:07:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:08:42Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-17T00:08:46Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"nickel", "Count":6 }
+{ "timestamp":"2017-04-17T00:09:11Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:09:25Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-17T00:09:36Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:09:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:10:03Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:11:31Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:11:41Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:11:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-17T00:11:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-17T00:11:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-04-17T00:12:04Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"chromium", "Count":9 }
+{ "timestamp":"2017-04-17T00:12:35Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:12:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:12:37Z", "event":"WingLeave" }
+{ "timestamp":"2017-04-17T00:12:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-17T00:12:48Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-17T00:12:56Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:13:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-17T00:14:26Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:14:41Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:14:59Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-17T00:15:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-17T00:15:03Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:15:04Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:15:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:15:06Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T00:15:49Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:15:54Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:16:00Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:16:06Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":8 }
+{ "timestamp":"2017-04-17T00:16:07Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:16:08Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"arsenic", "Count":1 }
+{ "timestamp":"2017-04-17T00:17:43Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:17:58Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:18:27Z", "event":"WingJoin", "Others":[ "The Akog Killer" ] }
+{ "timestamp":"2017-04-17T00:18:27Z", "event":"WingAdd", "Name":"[redacted]" }
+{ "timestamp":"2017-04-17T00:19:16Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:19:34Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:19:43Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:20:09Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:20:31Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:21:32Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:21:40Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:21:49Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:21:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-04-17T00:22:58Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:23:03Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:23:05Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:23:06Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:23:07Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:23:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:23:19Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:23:30Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:23:31Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:23:37Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-17T00:23:49Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:24:09Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:24:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-04-17T00:24:21Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:24:30Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:24:43Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:24:48Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:25:07Z", "event":"MiningRefined", "Type":"$osmium_name;", "Type_Localised":"Osmium" }
+{ "timestamp":"2017-04-17T00:25:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:25:38Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:25:38Z", "event":"MiningRefined", "Type":"$gold_name;", "Type_Localised":"Gold" }
+{ "timestamp":"2017-04-17T00:25:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:26:45Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:26:58Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:27:10Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:27:13Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:27:14Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:27:18Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:27:39Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:27:42Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:27:49Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:27:56Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:28:01Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:28:07Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:28:46Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:28:56Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:29:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-17T00:29:18Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:29:25Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"zinc", "Count":9 }
+{ "timestamp":"2017-04-17T00:29:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-17T00:29:33Z", "event":"DockFighter" }
+{ "timestamp":"2017-04-17T00:29:40Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:29:46Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:30:02Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:30:12Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:30:20Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:30:25Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:30:39Z", "event":"MiningRefined", "Type":"$uraninite_name;", "Type_Localised":"Uraninite" }
+{ "timestamp":"2017-04-17T00:30:41Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:30:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T00:30:54Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:30:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T00:31:08Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":9 }
+{ "timestamp":"2017-04-17T00:32:24Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:32:34Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:32:38Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:32:45Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:32:46Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:32:48Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:32:51Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:32:54Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:32:54Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:32:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-04-17T00:33:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:33:11Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:33:19Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":12 }
+{ "timestamp":"2017-04-17T00:34:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T00:34:09Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-17T00:34:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T00:34:21Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-17T00:34:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:34:40Z", "event":"MiningRefined", "Type":"$praseodymium_name;", "Type_Localised":"Praseodymium" }
+{ "timestamp":"2017-04-17T00:35:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T00:35:46Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:35:50Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":6 }
+{ "timestamp":"2017-04-17T00:35:54Z", "event":"MiningRefined", "Type":"$bertrandite_name;", "Type_Localised":"Bertrandite" }
+{ "timestamp":"2017-04-17T00:36:06Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:36:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T00:36:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T00:36:23Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":9 }
+{ "timestamp":"2017-04-17T00:37:39Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-17T00:37:42Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:37:51Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:37:54Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:37:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2017-04-17T00:38:04Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:38:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:38:07Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:38:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:38:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T00:40:04Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-17T00:40:09Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-17T00:41:16Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-17T00:42:11Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-17T00:42:13Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:42:13Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 c", "BodyType":"Planet" }
+{ "timestamp":"2017-04-17T00:42:19Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:42:33Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:42:33Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:42:39Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:42:47Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Docking request denied, please approach to 7500m", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:42:47Z", "event":"DockingDenied", "Reason":"Distance", "StationName":"" }
+{ "timestamp":"2017-04-17T00:42:51Z", "event":"DockingRequested", "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-17T00:42:51Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Welcome back, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:42:52Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:42:52Z", "event":"DockingGranted", "LandingPad":13, "StationName":"Jenkinson Vision" }
+{ "timestamp":"2017-04-17T00:43:00Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:17Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Loitering infraction detected, clear pad approach immediately to avoid lethal response", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:20Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Starport infractions cleared, docking privileges restored.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:21Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Loitering infraction detected, clear pad approach immediately to avoid lethal response", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:22Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Starport infractions cleared, docking privileges restored.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:34Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-17T00:43:34Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"You're clean. Proceed, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:43:38Z", "event":"Docked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation", "StarSystem":"Baudu", "StationFaction":"Independent Baudu Union Party", "FactionState":"Boom", "StationGovernment":"$government_Communism;", "StationGovernment_Localised":"Communism", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":1770.837769 }
+{ "timestamp":"2017-04-17T00:45:38Z", "event":"RefuelAll", "Cost":167, "Amount":3.321889 }
+{ "timestamp":"2017-04-17T00:45:39Z", "event":"RepairAll", "Cost":26921 }
+{ "timestamp":"2017-04-17T00:46:23Z", "event":"MarketSell", "Type":"gold", "Count":1, "SellPrice":9164, "TotalSale":9164, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:27Z", "event":"MarketSell", "Type":"osmium", "Count":5, "SellPrice":7538, "TotalSale":37690, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:32Z", "event":"MarketSell", "Type":"praseodymium", "Count":9, "SellPrice":5409, "TotalSale":48681, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:36Z", "event":"MarketSell", "Type":"samarium", "Count":7, "SellPrice":4993, "TotalSale":34951, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:41Z", "event":"MarketSell", "Type":"bertrandite", "Count":5, "SellPrice":1533, "TotalSale":7665, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:47Z", "event":"MarketSell", "Type":"gallite", "Count":9, "SellPrice":1141, "TotalSale":10269, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:53Z", "event":"MarketSell", "Type":"lepidolite", "Count":27, "SellPrice":277, "TotalSale":7479, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:55Z", "event":"MarketSell", "Type":"indite", "Count":1, "SellPrice":1321, "TotalSale":1321, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:46:57Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"Shift's over guys, I'm heading back to base.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:46:59Z", "event":"MarketSell", "Type":"coltan", "Count":5, "SellPrice":785, "TotalSale":3925, "AvgPricePaid":0 }
+{ "timestamp":"2017-04-17T00:50:19Z", "event":"BuyDrones", "Type":"Drones", "Count":150, "BuyPrice":101, "TotalCost":15150 }
+{ "timestamp":"2017-04-17T00:50:36Z", "event":"Undocked", "StationName":"Jenkinson Vision", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-04-17T00:50:57Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:51:13Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-04-17T00:51:13Z", "event":"ApproachSettlement", "Name":"Jenkinson Vision" }
+{ "timestamp":"2017-04-17T00:51:18Z", "event":"SupercruiseEntry", "StarSystem":"Baudu" }
+{ "timestamp":"2017-04-17T00:52:49Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"This is your captain. Due to some unforeseen delays, we will be arriving at our next destination later than scheduled.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:53:17Z", "event":"SupercruiseExit", "StarSystem":"Baudu", "Body":"Baudu AB 5 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2017-04-17T00:54:34Z", "event":"EjectCargo", "Type":"drones", "Count":46, "Abandoned":true }
+{ "timestamp":"2017-04-17T00:54:34Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:54:46Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:54:56Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:55:04Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:55:54Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:56:01Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:56:08Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:56:15Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:56:22Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:56:27Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:56:28Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:56:35Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-17T00:56:37Z", "event":"SendText", "To":"[redacted]", "Message":"[redacted]" }
+{ "timestamp":"2017-04-17T00:56:44Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-17T00:56:46Z", "event":"MiningRefined", "Type":"$samarium_name;", "Type_Localised":"Samarium" }
+{ "timestamp":"2017-04-17T00:56:51Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-17T00:57:03Z", "event":"DockFighter" }
+{ "timestamp":"2017-04-17T00:57:19Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2017-04-17T00:57:19Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Message_Localised":"All clear. Carry on, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-04-17T00:57:55Z", "event":"ReceiveText", "From":"[redacted]", "Message":"[redacted]", "Channel":"wing" }
+{ "timestamp":"2017-04-17T00:58:23Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:58:24Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":false }
+{ "timestamp":"2017-04-17T00:58:30Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T00:58:40Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T00:58:58Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"carbon", "Count":6 }
+{ "timestamp":"2017-04-17T00:58:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T00:58:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:59:04Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T00:59:10Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"chromium", "Count":6 }
+{ "timestamp":"2017-04-17T00:59:16Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"manganese", "Count":6 }
+{ "timestamp":"2017-04-17T01:00:23Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T01:00:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T01:01:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T01:01:02Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T01:01:41Z", "event":"MiningRefined", "Type":"$silver_name;", "Type_Localised":"Silver" }
+{ "timestamp":"2017-04-17T01:01:50Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T01:02:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-04-17T01:03:10Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T01:03:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-04-17T01:03:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T01:03:27Z", "event":"MiningRefined", "Type":"$coltan_name;", "Type_Localised":"Coltan" }
+{ "timestamp":"2017-04-17T01:03:42Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"sulphur", "Count":12 }
+{ "timestamp":"2017-04-17T01:03:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-04-17T01:03:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-04-17T01:03:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-04-17T01:04:13Z", "event":"MaterialDiscarded", "Category":"Raw", "Name":"manganese", "Count":9 }
+{ "timestamp":"2017-04-17T01:05:13Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
+{ "timestamp":"2017-04-17T01:05:39Z", "event":"MiningRefined", "Type":"$lepidolite_name;", "Type_Localised":"Lepidolite" }
+{ "timestamp":"2017-04-17T01:06:18Z", "event":"MiningRefined", "Type":"$gallite_name;", "Type_Localised":"Gallite" }
