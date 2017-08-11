@@ -2,23 +2,21 @@ package me.apemanzilla.edjournal.events;
 
 import com.google.gson.annotations.SerializedName;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 
-@EqualsAndHashCode(callSuper=true)
-@ToString(callSuper=true)
+@EqualsAndHashCode(callSuper = true)
+@ToString(callSuper = true)
 @Getter
 public class Fileheader extends JournalEvent {
 	@SerializedName("part")
-	int part;
-	
+	private int part;
+
 	@SerializedName("language")
-	String language;
-	
+	private String language;
+
 	@SerializedName("gameversion")
-	String gameversion;
-	
+	private String gameversion;
+
 	@SerializedName("build")
-	String build;
+	private String build;
 }
