@@ -2,6 +2,8 @@ plugins {
 	id 'java-library'
 	id 'eclipse'
 	id 'idea'
+	id 'maven-publish'
+	id "com.jfrog.bintray" version "1.7.3"
 }
 
 group = 'me.apemanzilla'
@@ -15,17 +17,38 @@ eclipse.project {
 	natures 'org.springsource.ide.eclipse.gradle.core.nature'
 }
 
-repositories {
-	mavenCentral()
-}
+repositories { mavenCentral() }
 
 dependencies {
 	compileOnly 'org.projectlombok:lombok:1.16.18'
-	
+
 	implementation 'com.google.code.gson:gson:2.8.1'
 	implementation 'com.google.guava:guava:23.0'
 	implementation 'org.slf4j:slf4j-api:1.7.25'
-	
+
 	testImplementation 'junit:junit:4.12'
 	testImplementation 'org.slf4j:slf4j-simple:1.7.25'
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) { from components.java }
+	}
+}
+
+bintray {
+	user = System.getenv('BINTRAY_USER')
+	key = System.getenv('BINTRAY_KEY')
+	
+	pkg {
+		repo = 'maven'
+		name = 'edjournal'
+		publications = ['mavenJava']
+		publish = true
+		
+		version {
+			name = project.version
+			released = new Date()
+		}
+	}
 }
