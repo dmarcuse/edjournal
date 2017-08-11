@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'me.apemanzilla'
-version = '1.0.1'
+version = '1.0.2'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -30,9 +30,29 @@ dependencies {
 	testImplementation 'org.slf4j:slf4j-simple:1.7.25'
 }
 
+task sourceJar(type: Jar) {
+	from sourceSets.main.allSource
+	classifier = 'sources'
+	
+	group = 'build'
+	description = 'Assembles a jar archive containing the main sources.'
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+	from javadoc.destinationDir
+	classifier = 'javadoc'
+	
+	group = 'build'
+	description = 'Assembles a jar archive containing the javadocs.'
+}
+
 publishing {
 	publications {
-		mavenJava(MavenPublication) { from components.java }
+		mavenJava(MavenPublication) {
+			from components.java
+			artifact sourceJar
+			artifact javadocJar
+		}
 	}
 }
 
