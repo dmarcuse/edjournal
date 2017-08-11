@@ -31,6 +31,7 @@ public class JournalUtils {
 		};
 
 		gson = new GsonBuilder().registerTypeAdapter(Instant.class, instantDeserializer)
+				.registerTypeAdapterFactory(new LegacyJournalHandler())
 				.registerTypeAdapter(JournalEvent.class, new JournalEventDeserializer())
 				.registerTypeAdapter(Scan.class, new ScanDeserializer())
 				.setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();

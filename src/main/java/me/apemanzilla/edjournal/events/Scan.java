@@ -149,7 +149,7 @@ public abstract class Scan extends JournalEvent {
 		private String volcanism;
 		private double surfaceTemperature;
 		private double surfacePressure;
-		private List<CollectableMaterial> materials = Collections.emptyList();
+		private List<MaterialPercentage> materials = Collections.emptyList();
 		private ReserveType reserveLevel;
 	}
 }
