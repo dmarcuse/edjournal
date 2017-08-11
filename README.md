@@ -1,4 +1,4 @@
-# EDJournal [ ![Download](https://api.bintray.com/packages/apemanzilla/maven/edjournal/images/download.svg) ](https://bintray.com/apemanzilla/maven/edjournal/_latestVersion)
+# EDJournal [ ![Download](https://api.bintray.com/packages/apemanzilla/maven/edjournal/images/download.svg) ](https://bintray.com/apemanzilla/maven/edjournal/_latestVersion)[![Build Status](https://travis-ci.org/apemanzilla/edjournal.svg?branch=master)](https://travis-ci.org/apemanzilla/edjournal)
 A modern library for reading the Elite: Dangerous player journal
 
 EDJournal is an easy to use library for reading the [Elite: Dangerous player journal](http://hosting.zaonce.net/community/journal/v11/Journal_Manual_v11.pdf).
