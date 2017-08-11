@@ -3,6 +3,7 @@ package me.apemanzilla.edjournal;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 import com.google.common.collect.Streams;
@@ -76,8 +77,34 @@ public class Journal {
 	 * 
 	 * @return A stream of {@link JournalEvent} instances from each journal file
 	 *         in this folder.
+	 * @see #events(Class)
 	 */
 	public Stream<JournalEvent> events() {
 		return journalFiles().flatMap(JournalFile::events);
+	}
+
+	/**
+	 * Streams all events of the given type from this journal's directory,
+	 * ordered from oldest to newest.
+	 * 
+	 * @param cls
+	 *            The type of events to stream
+	 * @return A stream of events of the given type
+	 * @see #events()
+	 */
+	public <T extends JournalEvent> Stream<T> events(Class<T> cls) {
+		return events().filter(cls::isInstance).map(cls::cast);
+	}
+
+	/**
+	 * Searches for the most recent event of a given type
+	 * 
+	 * @param cls
+	 *            The type of event to search for
+	 * @return The most recent event of the given type, or an empty
+	 *         <code>Optional</code> if no such event could be found
+	 */
+	public <T extends JournalEvent> Optional<T> lastEventOfType(Class<T> cls) {
+		return events(cls).reduce((a, b) -> b);
 	}
 }
