@@ -12,6 +12,18 @@ import com.google.gson.Gson;
 import lombok.*;
 import me.apemanzilla.edjournal.events.JournalEvent;
 
+/**
+ * A player journal, backed by log files from a given directory.<br>
+ * Events are streamed using {@link JournalFile} instances from the journal
+ * files in the journal's directory.<br>
+ * <br>
+ * Once you've acquired an instance via {@link Journal#create()} or
+ * {@link Journal#create(Path)}, you can use it to stream {@link JournalEvent
+ * JournalEvents}.
+ * 
+ * @author apemanzilla
+ *
+ */
 @Value
 public class Journal {
 	/**

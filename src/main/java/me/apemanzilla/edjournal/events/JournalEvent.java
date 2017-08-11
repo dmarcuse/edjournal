@@ -7,7 +7,9 @@ import com.google.gson.annotations.SerializedName;
 import lombok.*;
 
 /**
- * Represents an event from the Elite: Dangerous player journal.
+ * Represents an event from the Elite: Dangerous player journal.<br>
+ * This class alone serves merely as a base class for all other event classes in
+ * {@link me.apemanzilla.edjournal.events}.
  * 
  * @author apemanzilla
  *

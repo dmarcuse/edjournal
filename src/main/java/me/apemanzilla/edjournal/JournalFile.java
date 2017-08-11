@@ -13,6 +13,15 @@ import com.google.gson.*;
 import lombok.*;
 import me.apemanzilla.edjournal.events.JournalEvent;
 
+/**
+ * Represents a log file as part of the a player's journal.
+ * 
+ * @author apemanzilla
+ * 
+ * @see Journal
+ * @see JournalEvent
+ *
+ */
 @Value
 @AllArgsConstructor(access = AccessLevel.PACKAGE)
 public class JournalFile implements Comparable<JournalFile> {

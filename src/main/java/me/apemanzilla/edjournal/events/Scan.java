@@ -8,6 +8,17 @@ import javax.annotation.Nullable;
 import lombok.*;
 import me.apemanzilla.edjournal.gameobjects.*;
 
+/**
+ * Represents a targeted scan of a stellar body. For convenience, this class is
+ * only an abstract superclass for more detailed classes depending on the scan.
+ * 
+ * @see StarScan
+ * @see BasicBodyScan
+ * @see DetailedBodyScan
+ * 
+ * @author apemanzilla
+ *
+ */
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 @Getter
@@ -52,6 +63,12 @@ public abstract class Scan extends JournalEvent {
 	 */
 	public abstract boolean isDetailed();
 
+	/**
+	 * Represents a scan of a star or star-type object (e.g. black hole)
+	 * 
+	 * @author apemanzilla
+	 *
+	 */
 	@EqualsAndHashCode(callSuper = true)
 	@ToString(callSuper = true)
 	@Getter
@@ -63,7 +80,7 @@ public abstract class Scan extends JournalEvent {
 		public boolean isDetailed() {
 			return false;
 		}
-		
+
 		private StarClass starType;
 		private double stellarMass;
 		private double radius;
@@ -73,6 +90,17 @@ public abstract class Scan extends JournalEvent {
 		private double age_MY;
 	}
 
+	/**
+	 * Represents a basic scan of a planet or moon (no detailed surface scanner
+	 * used)<br>
+	 * <br>
+	 * Because {@link DetailedBodyScan} is a child of this class, you should use
+	 * {@link Scan#isDetailed()} to determine whether a scan is a detailed scan
+	 * or not, rather than <code>instanceof</code>.
+	 * 
+	 * @author apemanzilla
+	 *
+	 */
 	@EqualsAndHashCode(callSuper = true)
 	@ToString(callSuper = true)
 	@Getter
@@ -84,20 +112,27 @@ public abstract class Scan extends JournalEvent {
 		public boolean isDetailed() {
 			return false;
 		}
-		
+
 		private String planetClass;
 		private double surfaceGravity;
 		private double radius;
 		private double massEM;
 		private boolean landable = false;
-		
+
 		@Nullable
 		private Double rotationPeriod;
-		
+
 		@Nullable
 		private Double axialTilt;
 	}
 
+	/**
+	 * Represents a detailed scan of a planet or moon (detailed surface scanner
+	 * used)
+	 * 
+	 * @author apemanzilla
+	 *
+	 */
 	@EqualsAndHashCode(callSuper = true)
 	@ToString(callSuper = true)
 	@Getter
@@ -105,7 +140,7 @@ public abstract class Scan extends JournalEvent {
 		public boolean isDetailed() {
 			return true;
 		}
-		
+
 		private boolean tidalLock;
 		private String terraformState;
 		private String atmosphere;
