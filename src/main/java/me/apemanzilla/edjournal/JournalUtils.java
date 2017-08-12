@@ -8,6 +8,7 @@ import java.util.TimeZone;
 
 import com.google.gson.*;
 
+import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import me.apemanzilla.edjournal.events.JournalEvent;
 import me.apemanzilla.edjournal.events.Scan;
@@ -16,19 +17,18 @@ import me.apemanzilla.edjournal.events.Scan;
 public class JournalUtils {
 	public static final DateFormat timestampFormat;
 
+	@SneakyThrows(ParseException.class)
+	public static Instant parseTimestamp(String timestamp) {
+		return timestampFormat.parse(timestamp).toInstant();
+	}
+	
 	static final Gson gson;
 
 	static {
 		timestampFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
 		timestampFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
 
-		JsonDeserializer<Instant> instantDeserializer = (e, t, c) -> {
-			try {
-				return timestampFormat.parse(e.getAsString()).toInstant();
-			} catch (ParseException ex) {
-				throw new JsonParseException("Cannot parse date from string " + e.getAsString(), ex);
-			}
-		};
+		JsonDeserializer<Instant> instantDeserializer = (e, t, c) -> parseTimestamp(e.getAsString());
 
 		gson = new GsonBuilder().registerTypeAdapter(Instant.class, instantDeserializer)
 				.registerTypeAdapterFactory(new LegacyJournalHandler())

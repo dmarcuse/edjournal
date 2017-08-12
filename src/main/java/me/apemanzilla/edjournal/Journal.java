@@ -1,11 +1,14 @@
 package me.apemanzilla.edjournal;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.nio.file.*;
+import java.time.Instant;
+import java.util.Iterator;
 import java.util.Optional;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Stream;
 
+import com.google.common.base.Supplier;
 import com.google.common.collect.Streams;
 import com.google.gson.Gson;
 
@@ -27,8 +30,7 @@ import me.apemanzilla.edjournal.events.JournalEvent;
 @Value
 public class Journal {
 	/**
-	 * Creates a new journal that will load logs from the given journal
-	 * directory.
+	 * Creates a new journal that will load logs from the given journal directory.
 	 * 
 	 * @param logDirectory
 	 *            The directory to watch for player journal files
@@ -39,9 +41,8 @@ public class Journal {
 	}
 
 	/**
-	 * Creates a journal from the
-	 * {@link JournalUtils#getDefaultJournalDirectory() default Elite: Dangerous
-	 * player journal directory}.
+	 * Creates a journal from the {@link JournalUtils#getDefaultJournalDirectory()
+	 * default Elite: Dangerous player journal directory}.
 	 * 
 	 * @return A new <code>Journal</code> instance using the default directory
 	 * 
@@ -65,14 +66,15 @@ public class Journal {
 	final transient Gson gson;
 
 	Journal(@NonNull Path logDirectory, @NonNull Gson gson) {
-		if (!Files.isDirectory(logDirectory)) throw new IllegalArgumentException("Journal path must be a directory.");
+		if (!Files.isDirectory(logDirectory))
+			throw new IllegalArgumentException("Journal path must be a directory.");
 		this.logDirectory = logDirectory;
 		this.gson = gson;
 	}
 
 	/**
-	 * Streams all the journal files found in this journal's directory, ordered
-	 * from oldest to newest.
+	 * Streams all the journal files found in this journal's directory, ordered from
+	 * oldest to newest.
 	 * 
 	 * @return A stream of {@link JournalFile} instances from this journal's
 	 *         directory
@@ -84,11 +86,11 @@ public class Journal {
 	}
 
 	/**
-	 * Streams all the events found in this journal's directory, ordered from
-	 * oldest to newest.
+	 * Streams all the events found in this journal's directory, ordered from oldest
+	 * to newest.
 	 * 
-	 * @return A stream of {@link JournalEvent} instances from each journal file
-	 *         in this folder.
+	 * @return A stream of {@link JournalEvent} instances from each journal file in
+	 *         this folder.
 	 * @see #events(Class)
 	 */
 	public Stream<JournalEvent> events() {
@@ -96,8 +98,8 @@ public class Journal {
 	}
 
 	/**
-	 * Streams all events of the given type from this journal's directory,
-	 * ordered from oldest to newest.
+	 * Streams all events of the given type from this journal's directory, ordered
+	 * from oldest to newest.
 	 * 
 	 * @param cls
 	 *            The type of events to stream
@@ -118,5 +120,103 @@ public class Journal {
 	 */
 	public <T extends JournalEvent> Optional<T> lastEventOfType(Class<T> cls) {
 		return events(cls).reduce((a, b) -> b);
+	}
+
+	private Stream<WatchEvent<?>> streamWatchEvents() throws IOException {
+		return Stream.generate(new Supplier<WatchEvent<?>>() {
+			private WatchService w = logDirectory.getFileSystem().newWatchService();
+			private WatchKey k = logDirectory.register(w, StandardWatchEventKinds.ENTRY_MODIFY);
+			private Iterator<WatchEvent<?>> i = k.pollEvents().iterator();
+
+			@Override
+			@SneakyThrows(InterruptedException.class)
+			public WatchEvent<?> get() {
+				while (!i.hasNext()) {
+					k.reset();
+					k = w.take();
+					i = k.pollEvents().iterator();
+				}
+
+				WatchEvent<?> e = i.next();
+				return e;
+			}
+		});
+	}
+
+	@SneakyThrows(IOException.class)
+	private Stream<JournalEvent> liveEvents(Instant from) {
+		AtomicReference<Instant> cutoff = new AtomicReference<Instant>(Instant.now());
+
+		return streamWatchEvents().filter(e -> e.kind().equals(StandardWatchEventKinds.ENTRY_MODIFY))
+				.map(e -> (Path) e.context()).map(logDirectory::resolve).filter(JournalFile::journalPatternMatches)
+				.map(p -> new JournalFile(p, gson)).flatMap(f -> f.eventsAfter(cutoff.get()))
+				.peek(e -> cutoff.set(e.getTimestamp()));
+
+	}
+
+	/**
+	 * Produces an <b>infinite</b> stream of events by watching this journal's
+	 * directory for changes. This stream <b>does not</b> contain old events written
+	 * to the disk, only events that occurred after the stream was created.<br>
+	 * When no events are available, the stream will block until new events occur.
+	 * 
+	 * @return An infinite, live stream of events as they occur.
+	 * @see #liveEvents(Class)
+	 * @see #allEvents()
+	 * @see #allEvents(Class)
+	 */
+	public Stream<JournalEvent> liveEvents() {
+		return liveEvents(Instant.now());
+	}
+
+	/**
+	 * Produces an <b>infinite</b> stream of events of a given type by watching this
+	 * journal's directory for changes. This stream <b>does not</b> contain old
+	 * events written to the disk, only events that occurred after the stream was
+	 * created.<br>
+	 * When no events are available, the stream will block until new events occur.
+	 * 
+	 * @param cls
+	 *            The type of event to watch for.
+	 * @return An infinite, live stream of events of the given type as they occur.
+	 * @see #liveEvents()
+	 * @see #allEvents()
+	 * @see #allEvents(Class)
+	 */
+	public <T extends JournalEvent> Stream<T> liveEvents(Class<T> cls) {
+		return liveEvents().filter(cls::isInstance).map(cls::cast);
+	}
+
+	/**
+	 * Produces an <b>infinite</b> stream of events using old events stored in the
+	 * journal as well as watching for new events being logged. This stream will
+	 * first cover every event stored, and then block until more events are written,
+	 * never terminating.
+	 * 
+	 * @return An infinite stream of past and live events.
+	 * @see #allEvents(Class)
+	 * @see #liveEvents()
+	 * @see #liveEvents(Class)
+	 */
+	public Stream<JournalEvent> allEvents() {
+		Instant from = Instant.now();
+		return Stream.concat(events(), liveEvents(from));
+	}
+
+	/**
+	 * Produces an <b>infinite</b> stream of events of a given type using old events
+	 * stored in the journal as well as watching for new events being logged. This
+	 * stream will first cover every event stored, and then block until more events
+	 * are written, never terminating.
+	 * 
+	 * @param cls
+	 *            The type of event to stream.
+	 * @return An infinite stream of past and live events of a given type.
+	 * @see #allEvents()
+	 * @see #liveEvents()
+	 * @see #liveEvents(Class)
+	 */
+	public <T extends JournalEvent> Stream<T> allEvents(Class<T> cls) {
+		return allEvents().filter(cls::isInstance).map(cls::cast);
 	}
 }

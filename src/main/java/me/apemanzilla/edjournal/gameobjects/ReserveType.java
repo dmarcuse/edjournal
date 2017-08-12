@@ -5,5 +5,6 @@ public enum ReserveType {
 	Major,
 	Common,
 	Low,
-	Depleted
+	Depleted,
+	None
 }

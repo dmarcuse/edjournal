@@ -3,6 +3,7 @@ package me.apemanzilla.edjournal;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Instant;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -33,8 +34,8 @@ public class JournalFile implements Comparable<JournalFile> {
 	public static String journalFilePattern = "^Journal\\.(\\d+)\\.(\\d+)\\.log$";
 
 	/**
-	 * Checks whether a given path matches the {@link #journalFilePattern
-	 * journal filename pattern}
+	 * Checks whether a given path matches the {@link #journalFilePattern journal
+	 * filename pattern}
 	 * 
 	 * @param path
 	 *            The path to check
@@ -50,32 +51,64 @@ public class JournalFile implements Comparable<JournalFile> {
 	@NonNull
 	private final Gson gson;
 
+	@Data
+	@AllArgsConstructor(access = AccessLevel.PRIVATE)
+	private static class JsonLine<T extends JsonElement> {
+		private static final JsonParser parser = new JsonParser();
+
+		public static JsonLine<? extends JsonElement> parse(Path file, int line, String json) {
+			try {
+				return new JsonLine<JsonElement>(file, line, parser.parse(json));
+			} catch (JsonParseException e) {
+				throw new RuntimeException("Failed to parse JSON on line " + line + " of " + file.toAbsolutePath(), e);
+			}
+		}
+
+		private Path file;
+		private int line;
+		private T element;
+	}
+
+	@SuppressWarnings("unchecked")
+	@SneakyThrows(IOException.class)
+	private Stream<JsonLine<JsonObject>> streamObjects() {
+		AtomicInteger line = new AtomicInteger(0);
+
+		return Files.lines(location).peek(l -> line.incrementAndGet()).map(s -> JsonLine.parse(location, line.get(), s))
+				.filter(l -> l.element.isJsonObject()).map(l -> (JsonLine<JsonObject>) l);
+	}
+
+	private JournalEvent toEvent(JsonLine<JsonObject> l) {
+		try {
+			return gson.fromJson(l.element, JournalEvent.class);
+		} catch (JsonSyntaxException e) {
+			throw new RuntimeException(
+					"Failed to parse journal event on line " + l.line + " of " + l.file.toAbsolutePath(), e);
+		}
+	}
+
 	/**
 	 * Streams all the events stored in this journal file. The stream will be
-	 * ordered according to the lines in the journal file - i.e. oldest events
-	 * to newest events.
+	 * ordered according to the lines in the journal file - i.e. oldest events to
+	 * newest events.
 	 * 
 	 * @return A stream of events from this file
 	 */
-	@SneakyThrows(IOException.class)
 	public Stream<JournalEvent> events() {
-		JsonParser parser = new JsonParser();
-		AtomicInteger line = new AtomicInteger(0);
-		return Files.lines(location).peek(l -> line.incrementAndGet()).map(l -> {
-			try {
-				return parser.parse(l);
-			} catch (JsonParseException e) {
-				throw new RuntimeException("Failed to parse JSON on line " + line.get() + " of " + location.toString(),
-						e);
-			}
-		}).map(JsonElement::getAsJsonObject).map(e -> {
-			try {
-				return gson.fromJson(e, JournalEvent.class);
-			} catch (JsonSyntaxException ex) {
-				throw new RuntimeException("Failed to parse JSON on line " + line.get() + " of " + location.toString(),
-						ex);
-			}
-		});
+		return streamObjects().map(this::toEvent);
+	}
+
+	/**
+	 * Streams all events stored in this journal file that occurred after a given
+	 * time. The stream will be ordered according to the lines in the journal file -
+	 * i.e. oldest events to newest events.
+	 * 
+	 * @param time
+	 *            The cutoff time
+	 * @return A stream of events which occurred after the given time
+	 */
+	public Stream<JournalEvent> eventsAfter(Instant time) {
+		return streamObjects().filter(l -> JournalUtils.parseTimestamp(l.element.get("timestamp").getAsString()).isAfter(time)).map(this::toEvent);
 	}
 
 	private double getTimestampAndPart() {

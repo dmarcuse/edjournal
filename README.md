@@ -28,7 +28,11 @@ long bountyHuntingCredits = Journal.create().events(RedeemVoucher.class)
 				.mapToLong(RedeemVoucher::getAmount).sum()
 ```
 
-The possibilities are endless!
+You can also watch events live as they come in:
+
+```
+Journal.create().liveEvents(FSDJump.class).forEach(j -> System.out.println("You jumped to " + j.getStarSystem()));
+```
 
 ### Warning
 EDJournal is a brand new library and has the ambitious goal of supporting the entire journal specification. It likely has numerous problems that I haven't found yet, so if you have any problems please submit an issue report so I can fix it!
