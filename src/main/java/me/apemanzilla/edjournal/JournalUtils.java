@@ -1,13 +1,16 @@
 package me.apemanzilla.edjournal;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.IOException;
+import java.nio.file.*;
 import java.text.*;
 import java.time.Instant;
+import java.util.Set;
 import java.util.TimeZone;
+import java.util.concurrent.ConcurrentHashMap;
 
 import com.google.gson.*;
 
+import lombok.Getter;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import me.apemanzilla.edjournal.events.JournalEvent;
@@ -21,7 +24,7 @@ public class JournalUtils {
 	public static Instant parseTimestamp(String timestamp) {
 		return timestampFormat.parse(timestamp).toInstant();
 	}
-	
+
 	static final Gson gson;
 
 	static {
@@ -64,5 +67,37 @@ public class JournalUtils {
 			return Paths.get("~", "Library", "Application Support", "Frontier Developments", "Elite Dangerous");
 		else
 			throw new IllegalStateException("Cannot determine default player journal directory");
+	}
+
+	/**
+	 * <code>WatchEvents</code> don't show up unless you "poke" the files
+	 * 
+	 * @author apemanzilla
+	 *
+	 */
+	static class DirectoryPoker implements Runnable {
+		@Getter
+		public final Set<Path> paths = ConcurrentHashMap.newKeySet();
+
+		@Override
+		public void run() {
+			while (true) {
+				try {
+					for (Path p : paths) {
+						Files.list(p).forEach(t -> {
+							try {
+								Files.size(t);
+							} catch (IOException e) {
+								e.printStackTrace();
+							}
+						});
+					}
+
+					Thread.sleep(100);
+				} catch (IOException | InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
 	}
 }

@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'me.apemanzilla'
-version = '1.1.0'
+version = '1.1.1'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -15,6 +15,11 @@ targetCompatibility = 1.8
 eclipse.project {
 	natures 'org.eclipse.buildship.core.gradleprojectnature'
 	natures 'org.springsource.ide.eclipse.gradle.core.nature'
+}
+
+tasks.withType(JavaCompile) {
+	options.fork = true
+	options.incremental = true
 }
 
 repositories { mavenCentral() }

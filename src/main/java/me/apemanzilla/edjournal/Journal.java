@@ -3,8 +3,7 @@ package me.apemanzilla.edjournal;
 import java.io.IOException;
 import java.nio.file.*;
 import java.time.Instant;
-import java.util.Iterator;
-import java.util.Optional;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Stream;
 
@@ -13,6 +12,7 @@ import com.google.common.collect.Streams;
 import com.google.gson.Gson;
 
 import lombok.*;
+import lombok.experimental.NonFinal;
 import me.apemanzilla.edjournal.events.JournalEvent;
 
 /**
@@ -122,11 +122,33 @@ public class Journal {
 		return events(cls).reduce((a, b) -> b);
 	}
 
+	@NonFinal
+	private JournalUtils.DirectoryPoker poker;
+
+	private void pokePath(Path p) {
+		if (poker == null) {
+			poker = new JournalUtils.DirectoryPoker();
+			Thread t = new Thread(poker);
+
+			t.setDaemon(true);
+			t.setName("EDJournal Directory Poker");
+			t.setPriority(Thread.MIN_PRIORITY);
+
+			t.start();
+		}
+
+		poker.getPaths().add(p);
+	}
+
 	private Stream<WatchEvent<?>> streamWatchEvents() throws IOException {
 		return Stream.generate(new Supplier<WatchEvent<?>>() {
 			private WatchService w = logDirectory.getFileSystem().newWatchService();
 			private WatchKey k = logDirectory.register(w, StandardWatchEventKinds.ENTRY_MODIFY);
 			private Iterator<WatchEvent<?>> i = k.pollEvents().iterator();
+
+			{
+				pokePath(logDirectory);
+			}
 
 			@Override
 			@SneakyThrows(InterruptedException.class)
@@ -136,9 +158,8 @@ public class Journal {
 					k = w.take();
 					i = k.pollEvents().iterator();
 				}
-
-				WatchEvent<?> e = i.next();
-				return e;
+				
+				return i.next();
 			}
 		});
 	}
