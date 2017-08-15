@@ -24,6 +24,7 @@ import me.apemanzilla.edjournal.events.JournalEvent;
  *
  */
 @Value
+@ToString(of="location")
 @AllArgsConstructor(access = AccessLevel.PACKAGE)
 public class JournalFile implements Comparable<JournalFile> {
 	/**
@@ -49,7 +50,7 @@ public class JournalFile implements Comparable<JournalFile> {
 	@NonNull
 	private final Path location;
 	@NonNull
-	private final Gson gson;
+	private transient final Gson gson;
 
 	@Data
 	@AllArgsConstructor(access = AccessLevel.PRIVATE)

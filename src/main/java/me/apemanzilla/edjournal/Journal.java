@@ -28,6 +28,7 @@ import me.apemanzilla.edjournal.events.JournalEvent;
  *
  */
 @Value
+@ToString(of = "logDirectory")
 public class Journal {
 	/**
 	 * Creates a new journal that will load logs from the given journal directory.
@@ -119,7 +120,14 @@ public class Journal {
 	 *         <code>Optional</code> if no such event could be found
 	 */
 	public <T extends JournalEvent> Optional<T> lastEventOfType(Class<T> cls) {
-		return events(cls).reduce((a, b) -> b);
+		/*
+		 * Streams journal files in reverse order (newest files first), then maps the
+		 * journal files to the last event of the given type, filters out empty
+		 * optionals, and returns the first one (most recent event)
+		 */
+		return journalFiles().sorted(Comparator.reverseOrder()).map(JournalFile::events)
+				.map(s -> s.filter(cls::isInstance).map(cls::cast).reduce((a, b) -> b)).filter(Optional::isPresent)
+				.map(Optional::get).findFirst();
 	}
 
 	@NonFinal
@@ -158,7 +166,7 @@ public class Journal {
 					k = w.take();
 					i = k.pollEvents().iterator();
 				}
-				
+
 				return i.next();
 			}
 		});
