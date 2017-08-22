@@ -16,10 +16,10 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 	private static void add(Class<? extends JournalEvent> eventClass) {
 		eventClasses.put(eventClass.getSimpleName(), eventClass);
 	}
-	
+
 	static {
 		eventClasses = new HashMap<>();
-		
+
 		add(ApproachSettlement.class);
 		add(Bounty.class);
 		add(BuyAmmo.class);
@@ -152,6 +152,7 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 		add(USSDrop.class);
 		add(VehicleSwitch.class);
 		add(WingAdd.class);
+		add(WingInvite.class);
 		add(WingJoin.class);
 		add(WingLeave.class);
 	}
@@ -160,7 +161,7 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 	public JournalEvent deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext ctx) {
 		JsonObject obj = json.getAsJsonObject();
 		String eventName = obj.get("event").getAsString();
-		
+
 		if (JournalEventDeserializer.eventClasses.containsKey(eventName)) {
 			return ctx.deserialize(json, JournalEventDeserializer.eventClasses.get(eventName));
 		} else {

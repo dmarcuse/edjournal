@@ -53,8 +53,8 @@ public abstract class Scan extends JournalEvent {
 
 	/**
 	 * @return Whether this scan is a detailed body scan or not. Note that star
-	 *         scans will always return <code>false</code> regardless of whether
-	 *         a detailed surface scanner was used.
+	 *         scans will always return <code>false</code> regardless of whether a
+	 *         detailed surface scanner was used.
 	 * 
 	 * @see #isStar()
 	 * @see StarScan
@@ -95,8 +95,8 @@ public abstract class Scan extends JournalEvent {
 	 * used)<br>
 	 * <br>
 	 * Because {@link DetailedBodyScan} is a child of this class, you should use
-	 * {@link Scan#isDetailed()} to determine whether a scan is a detailed scan
-	 * or not, rather than <code>instanceof</code>.
+	 * {@link Scan#isDetailed()} to determine whether a scan is a detailed scan or
+	 * not, rather than <code>instanceof</code>.
 	 * 
 	 * @author apemanzilla
 	 *
@@ -142,7 +142,7 @@ public abstract class Scan extends JournalEvent {
 		}
 
 		private boolean tidalLock;
-		private String terraformState;
+		private TerraformState terraformState = TerraformState.None;
 		private String atmosphere;
 		private String atmosphereType;
 		private List<AtmosphereComponent> atmosphereComposition;
