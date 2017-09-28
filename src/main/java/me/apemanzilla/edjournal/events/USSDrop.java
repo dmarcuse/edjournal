@@ -2,7 +2,9 @@ package me.apemanzilla.edjournal.events;
 
 import com.google.gson.annotations.SerializedName;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
@@ -10,7 +12,7 @@ import lombok.*;
 public class USSDrop extends JournalEvent {
 	@SerializedName("USSType")
 	private String ussType;
-	
+
 	@SerializedName("USSThreat")
-	private int ussThreat; 
+	private int ussThreat;
 }

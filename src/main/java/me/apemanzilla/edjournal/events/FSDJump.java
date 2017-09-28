@@ -5,7 +5,9 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.MinorFaction;
 import me.apemanzilla.edjournal.gameobjects.PowerplayState;
 
@@ -20,7 +22,7 @@ public class FSDJump extends JournalEvent {
 	private double fuelUsed;
 	private double fuelLevel;
 	private int boostUsed;
-	
+
 	@Nullable
 	private String systemFaction;
 	private String factionState;
@@ -30,7 +32,10 @@ public class FSDJump extends JournalEvent {
 	private String systemSecurity;
 	private List<MinorFaction> factions = Collections.emptyList();
 	private List<String> powers = Collections.emptyList();
-	
+
 	@Nullable
 	private PowerplayState powerplayState;
+
+	@Nullable
+	private Long population;
 }

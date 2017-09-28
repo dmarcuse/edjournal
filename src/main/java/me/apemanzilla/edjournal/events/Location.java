@@ -5,8 +5,12 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
-import me.apemanzilla.edjournal.gameobjects.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+import me.apemanzilla.edjournal.gameobjects.BodyType;
+import me.apemanzilla.edjournal.gameobjects.MinorFaction;
+import me.apemanzilla.edjournal.gameobjects.PowerplayState;
 
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)

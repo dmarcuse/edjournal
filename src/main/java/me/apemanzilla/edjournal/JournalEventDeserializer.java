@@ -4,7 +4,10 @@ import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.google.gson.*;
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 
 import lombok.extern.slf4j.Slf4j;
 import me.apemanzilla.edjournal.events.*;
@@ -20,6 +23,7 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 	static {
 		eventClasses = new HashMap<>();
 
+		add(AfmuRepairs.class);
 		add(ApproachSettlement.class);
 		add(Bounty.class);
 		add(BuyAmmo.class);
@@ -33,6 +37,7 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 		add(CockpitBreached.class);
 		add(CollectCargo.class);
 		add(CommitCrime.class);
+		add(CommunityGoal.class);
 		add(CommunityGoalDiscard.class);
 		add(CommunityGoalJoin.class);
 		add(CommunityGoalReward.class);
@@ -95,12 +100,15 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 		add(MissionAccepted.class);
 		add(MissionCompleted.class);
 		add(MissionFailed.class);
+		add(MissionRedirected.class);
 		add(ModuleBuy.class);
 		add(ModuleRetrieve.class);
 		add(ModuleSell.class);
 		add(ModuleSellRemote.class);
 		add(ModuleStore.class);
 		add(ModuleSwap.class);
+		add(Music.class);
+		add(NavBeaconScan.class);
 		add(NewCommander.class);
 		add(Passengers.class);
 		add(PayFines.class);
@@ -125,6 +133,7 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 		add(RefuelAll.class);
 		add(RefuelPartial.class);
 		add(Repair.class);
+		add(RepairDrone.class);
 		add(RepairAll.class);
 		add(Resurrect.class);
 		add(RestockVehicle.class);
@@ -132,9 +141,11 @@ class JournalEventDeserializer implements JsonDeserializer<JournalEvent> {
 		add(Scanned.class);
 		add(ScientificResearch.class);
 		add(Screenshot.class);
+		add(SearchAndRescue.class);
 		add(SelfDestruct.class);
 		add(SellDrones.class);
 		add(SellExplorationData.class);
+		add(SellShipOnRebuy.class);
 		add(SendText.class);
 		add(SetUserShipName.class);
 		add(ShieldState.class);

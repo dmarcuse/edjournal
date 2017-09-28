@@ -3,7 +3,9 @@ package me.apemanzilla.edjournal;
 import java.io.IOException;
 import java.nio.file.*;
 import java.time.Instant;
-import java.util.*;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Stream;
 
@@ -11,7 +13,10 @@ import com.google.common.base.Supplier;
 import com.google.common.collect.Streams;
 import com.google.gson.Gson;
 
-import lombok.*;
+import lombok.NonNull;
+import lombok.SneakyThrows;
+import lombok.ToString;
+import lombok.Value;
 import lombok.experimental.NonFinal;
 import me.apemanzilla.edjournal.events.JournalEvent;
 
@@ -67,8 +72,7 @@ public class Journal {
 	final transient Gson gson;
 
 	Journal(@NonNull Path logDirectory, @NonNull Gson gson) {
-		if (!Files.isDirectory(logDirectory))
-			throw new IllegalArgumentException("Journal path must be a directory.");
+		if (!Files.isDirectory(logDirectory)) throw new IllegalArgumentException("Journal path must be a directory.");
 		this.logDirectory = logDirectory;
 		this.gson = gson;
 	}

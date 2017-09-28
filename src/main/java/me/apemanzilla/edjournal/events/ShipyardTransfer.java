@@ -1,6 +1,10 @@
 package me.apemanzilla.edjournal.events;
 
-import lombok.*;
+import javax.annotation.Nullable;
+
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.Ship;
 
 @EqualsAndHashCode(callSuper = true)
@@ -12,4 +16,7 @@ public class ShipyardTransfer extends JournalEvent {
 	private String system;
 	private double distance;
 	private long transferPrice;
+
+	@Nullable
+	private Long transferTime;
 }

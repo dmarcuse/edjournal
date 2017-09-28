@@ -6,7 +6,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import com.google.common.primitives.Doubles;
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.TypeAdapter;
+import com.google.gson.TypeAdapterFactory;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
@@ -18,7 +20,8 @@ class LegacyJournalHandler implements TypeAdapterFactory {
 	@Override
 	public <T> TypeAdapter<T> create(Gson gson, TypeToken<T> type) {
 		if (type.equals(new TypeToken<List<MaterialPercentage>>() {})) {
-			// fix old format of events using material percentages (e.g. detailed planet scans)
+			// fix old format of events using material percentages (e.g. detailed planet
+			// scans)
 			return new TypeAdapter<T>() {
 				@Override
 				public void write(JsonWriter out, T value) throws IOException {
@@ -32,8 +35,7 @@ class LegacyJournalHandler implements TypeAdapterFactory {
 					case BEGIN_OBJECT:
 						return (T) gson
 								.getDelegateAdapter(LegacyJournalHandler.this, new TypeToken<Map<String, Double>>() {})
-								.read(in).entrySet().stream()
-								.map(e -> new MaterialPercentage(e.getKey(), e.getValue()))
+								.read(in).entrySet().stream().map(e -> new MaterialPercentage(e.getKey(), e.getValue()))
 								.sorted((a, b) -> Doubles.compare(b.getPercent(), a.getPercent()))
 								.collect(Collectors.toList());
 					default:

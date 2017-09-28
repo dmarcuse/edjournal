@@ -2,7 +2,9 @@ package me.apemanzilla.edjournal.events;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
@@ -12,6 +14,6 @@ public class Touchdown extends JournalEvent {
 	private Double latitude;
 
 	@Nullable
-	private Double longitude;	
+	private Double longitude;
 	private boolean playerControlled;
 }

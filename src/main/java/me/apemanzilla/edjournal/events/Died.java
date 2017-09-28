@@ -5,7 +5,9 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.Killer;
 
 @EqualsAndHashCode(callSuper = true)
@@ -20,6 +22,6 @@ public class Died extends JournalEvent {
 
 	@Nullable
 	private String killerRank;
-	
+
 	private List<Killer> killers = Collections.emptyList();
 }

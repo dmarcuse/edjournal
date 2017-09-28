@@ -1,8 +1,8 @@
 package me.apemanzilla.edjournal.gameobjects;
 
-import lombok.Getter;
-
 import static me.apemanzilla.edjournal.gameobjects.StarClass.Category.*;
+
+import lombok.Getter;
 
 /**
  * Represents a specific star class. Classes are also split into broader

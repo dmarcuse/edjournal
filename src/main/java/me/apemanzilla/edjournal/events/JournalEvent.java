@@ -4,7 +4,9 @@ import java.time.Instant;
 
 import com.google.gson.annotations.SerializedName;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
 /**
  * Represents an event from the Elite: Dangerous player journal.<br>

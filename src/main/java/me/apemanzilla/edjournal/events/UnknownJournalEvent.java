@@ -1,6 +1,8 @@
 package me.apemanzilla.edjournal.events;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
 /**
  * Created when a complete {@link JournalEvent} implementation is not available

@@ -1,7 +1,5 @@
 package me.apemanzilla.edjournal.gameobjects;
 
 public enum MaterialCategory {
-	Raw,
-	Manufactured,
-	Encoded
+	Raw, Manufactured, Encoded
 }

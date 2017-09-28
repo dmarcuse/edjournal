@@ -3,7 +3,9 @@ package me.apemanzilla.edjournal.events;
 import java.util.Collections;
 import java.util.List;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)

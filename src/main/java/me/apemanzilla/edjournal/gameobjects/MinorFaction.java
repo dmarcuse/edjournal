@@ -11,7 +11,7 @@ public class MinorFaction {
 		private String state;
 		private int trend;
 	}
-	
+
 	private String name;
 	private String factionState;
 	private String government;

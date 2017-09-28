@@ -24,7 +24,7 @@ import me.apemanzilla.edjournal.events.JournalEvent;
  *
  */
 @Value
-@ToString(of="location")
+@ToString(of = "location")
 @AllArgsConstructor(access = AccessLevel.PACKAGE)
 public class JournalFile implements Comparable<JournalFile> {
 	/**
@@ -109,7 +109,9 @@ public class JournalFile implements Comparable<JournalFile> {
 	 * @return A stream of events which occurred after the given time
 	 */
 	public Stream<JournalEvent> eventsAfter(Instant time) {
-		return streamObjects().filter(l -> JournalUtils.parseTimestamp(l.element.get("timestamp").getAsString()).isAfter(time)).map(this::toEvent);
+		return streamObjects()
+				.filter(l -> JournalUtils.parseTimestamp(l.element.get("timestamp").getAsString()).isAfter(time))
+				.map(this::toEvent);
 	}
 
 	private double getTimestampAndPart() {

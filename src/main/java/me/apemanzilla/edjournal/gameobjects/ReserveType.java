@@ -1,10 +1,5 @@
 package me.apemanzilla.edjournal.gameobjects;
 
 public enum ReserveType {
-	Pristine,
-	Major,
-	Common,
-	Low,
-	Depleted,
-	None
+	Pristine, Major, Common, Low, Depleted, None
 }

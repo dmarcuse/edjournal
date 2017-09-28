@@ -5,7 +5,9 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.*;
 
 /**
@@ -82,6 +84,7 @@ public abstract class Scan extends JournalEvent {
 		}
 
 		private StarClass starType;
+		private StarLuminosity luminosity;
 		private double stellarMass;
 		private double radius;
 		private double absoluteMagnitude;

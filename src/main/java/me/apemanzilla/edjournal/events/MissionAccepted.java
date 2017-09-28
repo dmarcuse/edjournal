@@ -4,7 +4,9 @@ import java.time.Instant;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.Influence;
 import me.apemanzilla.edjournal.gameobjects.Reputation;
 
@@ -17,43 +19,43 @@ public class MissionAccepted extends JournalEvent {
 	private long missionID;
 	private Influence influence;
 	private Reputation reputation;
-	
+
 	@Nullable
 	private String commodity;
-	
+
 	@Nullable
 	private Integer count;
-	
+
 	@Nullable
 	private String target;
-	
+
 	@Nullable
 	private String targetType;
-	
+
 	@Nullable
 	private String targetFaction;
-	
+
 	@Nullable
 	private Integer killCount;
-	
+
 	@Nullable
 	private Instant expiry;
-	
+
 	@Nullable
 	private String destinationSystem;
-	
+
 	@Nullable
 	private String destinationStation;
-	
+
 	@Nullable
 	private Integer passengerCount;
-	
+
 	@Nullable
 	private Boolean passengerVIPs;
-	
+
 	@Nullable
 	private Boolean passengerWanted;
-	
+
 	@Nullable
 	private String passengerType;
 }

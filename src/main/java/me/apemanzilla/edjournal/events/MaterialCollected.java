@@ -1,6 +1,8 @@
 package me.apemanzilla.edjournal.events;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.MaterialCategory;
 
 @EqualsAndHashCode(callSuper = true)

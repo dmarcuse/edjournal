@@ -1,6 +1,11 @@
 package me.apemanzilla.edjournal.events;
 
-import lombok.*;
+import java.util.List;
+
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+import me.apemanzilla.edjournal.gameobjects.StationServices;
 
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
@@ -16,4 +21,5 @@ public class Docked extends JournalEvent {
 	private String stationEconomy;
 	private String stationGovernment;
 	private double distFromStarLS;
+	private List<StationServices> services;
 }

@@ -2,7 +2,9 @@ package me.apemanzilla.edjournal.events;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.Ship;
 
 @EqualsAndHashCode(callSuper = true)
@@ -14,13 +16,13 @@ public class ModuleBuy extends JournalEvent {
 	private long buyPrice;
 	private Ship ship;
 	private int shipID;
-	
+
 	@Nullable
 	private String storedItem;
-	
+
 	@Nullable
 	private String sellItem;
-	
+
 	@Nullable
 	private Long sellPrice;
 }

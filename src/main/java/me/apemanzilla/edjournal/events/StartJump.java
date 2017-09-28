@@ -2,7 +2,9 @@ package me.apemanzilla.edjournal.events;
 
 import javax.annotation.Nullable;
 
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 import me.apemanzilla.edjournal.gameobjects.JumpType;
 import me.apemanzilla.edjournal.gameobjects.StarClass;
 
@@ -12,7 +14,7 @@ import me.apemanzilla.edjournal.gameobjects.StarClass;
 public class StartJump extends JournalEvent {
 	private JumpType jumpType;
 	private String starSystem;
-	
+
 	@Nullable
 	private StarClass starClass;
 }
