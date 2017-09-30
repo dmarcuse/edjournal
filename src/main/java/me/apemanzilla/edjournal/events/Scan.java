@@ -153,6 +153,8 @@ public abstract class Scan extends JournalEvent {
 		private double surfaceTemperature;
 		private double surfacePressure;
 		private List<MaterialPercentage> materials = Collections.emptyList();
-		private ReserveType reserveLevel = ReserveType.None;
+		
+		@Nullable
+		private ReserveType reserveLevel;
 	}
 }
